@@ -1,0 +1,2448 @@
+[
+  {
+    "label": "plain_text_00",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "hi",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "hello",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "hi",
+          "role": "user"
+        },
+        {
+          "content": "hello",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_01",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "good morning",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "morning",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "good morning",
+          "role": "user"
+        },
+        {
+          "content": "morning",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_02",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "how are you",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "I am fine",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "how are you",
+          "role": "user"
+        },
+        {
+          "content": "I am fine",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_03",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "thanks",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "you are welcome",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "thanks",
+          "role": "user"
+        },
+        {
+          "content": "you are welcome",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_04",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "ping",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "pong",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "ping",
+          "role": "user"
+        },
+        {
+          "content": "pong",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_05",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "yes",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "no",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "yes",
+          "role": "user"
+        },
+        {
+          "content": "no",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_06",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "ok",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "got it",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "ok",
+          "role": "user"
+        },
+        {
+          "content": "got it",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_07",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "see you",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "later",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "see you",
+          "role": "user"
+        },
+        {
+          "content": "later",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_08",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "hello there",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "general kenobi",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "hello there",
+          "role": "user"
+        },
+        {
+          "content": "general kenobi",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_09",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "what's up",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "not much",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "what's up",
+          "role": "user"
+        },
+        {
+          "content": "not much",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_10",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "welcome",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "thank you",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "welcome",
+          "role": "user"
+        },
+        {
+          "content": "thank you",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_11",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "ready",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "go ahead",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "ready",
+          "role": "user"
+        },
+        {
+          "content": "go ahead",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_12",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "hello",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "hi",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "hello",
+          "role": "user"
+        },
+        {
+          "content": "hi",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "plain_text_13",
+    "kind": "plain_text",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "greetings",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "salutations",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "greetings",
+          "role": "user"
+        },
+        {
+          "content": "salutations",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_00",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "get_weather(SF)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_00",
+              "input": {
+                "city": "SF"
+              },
+              "name": "get_weather",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "sunny 22C",
+              "tool_use_id": "toolu_00",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "get_weather(SF)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"city\":\"SF\"}",
+          "call_id": "fc_00",
+          "name": "get_weather",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_00",
+          "output": "sunny 22C",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_01",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "get_weather(NYC)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_01",
+              "input": {
+                "city": "NYC"
+              },
+              "name": "get_weather",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "cloudy 15C",
+              "tool_use_id": "toolu_01",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "get_weather(NYC)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"city\":\"NYC\"}",
+          "call_id": "fc_01",
+          "name": "get_weather",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_01",
+          "output": "cloudy 15C",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_02",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "get_weather(London)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_02",
+              "input": {
+                "city": "London"
+              },
+              "name": "get_weather",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "rain 12C",
+              "tool_use_id": "toolu_02",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "get_weather(London)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"city\":\"London\"}",
+          "call_id": "fc_02",
+          "name": "get_weather",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_02",
+          "output": "rain 12C",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_03",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "get_stock(AAPL)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_03",
+              "input": {
+                "symbol": "AAPL"
+              },
+              "name": "get_stock",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "232.5",
+              "tool_use_id": "toolu_03",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "get_stock(AAPL)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"symbol\":\"AAPL\"}",
+          "call_id": "fc_03",
+          "name": "get_stock",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_03",
+          "output": "232.5",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_04",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "get_stock(MSFT)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_04",
+              "input": {
+                "symbol": "MSFT"
+              },
+              "name": "get_stock",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "412.1",
+              "tool_use_id": "toolu_04",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "get_stock(MSFT)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"symbol\":\"MSFT\"}",
+          "call_id": "fc_04",
+          "name": "get_stock",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_04",
+          "output": "412.1",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_05",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "translate(hi)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_05",
+              "input": {
+                "text": "hi"
+              },
+              "name": "translate",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "salut",
+              "tool_use_id": "toolu_05",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "translate(hi)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"text\":\"hi\"}",
+          "call_id": "fc_05",
+          "name": "translate",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_05",
+          "output": "salut",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_06",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "translate(bye)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_06",
+              "input": {
+                "text": "bye"
+              },
+              "name": "translate",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "ciao",
+              "tool_use_id": "toolu_06",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "translate(bye)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"text\":\"bye\"}",
+          "call_id": "fc_06",
+          "name": "translate",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_06",
+          "output": "ciao",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_07",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "calc(2+2)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_07",
+              "input": {
+                "expr": "2+2"
+              },
+              "name": "calc",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "4",
+              "tool_use_id": "toolu_07",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "calc(2+2)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"expr\":\"2+2\"}",
+          "call_id": "fc_07",
+          "name": "calc",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_07",
+          "output": "4",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_08",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "calc(7*6)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_08",
+              "input": {
+                "expr": "7*6"
+              },
+              "name": "calc",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "42",
+              "tool_use_id": "toolu_08",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "calc(7*6)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"expr\":\"7*6\"}",
+          "call_id": "fc_08",
+          "name": "calc",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_08",
+          "output": "42",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_09",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "lookup(alpha)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_09",
+              "input": {
+                "key": "alpha"
+              },
+              "name": "lookup",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "first letter",
+              "tool_use_id": "toolu_09",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "lookup(alpha)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"key\":\"alpha\"}",
+          "call_id": "fc_09",
+          "name": "lookup",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_09",
+          "output": "first letter",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_10",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "lookup(omega)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_10",
+              "input": {
+                "key": "omega"
+              },
+              "name": "lookup",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "last letter",
+              "tool_use_id": "toolu_10",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "lookup(omega)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"key\":\"omega\"}",
+          "call_id": "fc_10",
+          "name": "lookup",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_10",
+          "output": "last letter",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "tool_cycle_11",
+    "kind": "tool_cycle",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "ping(example.com)?",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "id": "toolu_11",
+              "input": {
+                "host": "example.com"
+              },
+              "name": "ping",
+              "type": "tool_use"
+            }
+          ],
+          "role": "assistant"
+        },
+        {
+          "content": [
+            {
+              "content": "ok",
+              "tool_use_id": "toolu_11",
+              "type": "tool_result"
+            }
+          ],
+          "role": "user"
+        }
+      ]
+    },
+    "provider_b": "responses",
+    "native_b": {
+      "input": [
+        {
+          "content": [
+            {
+              "text": "ping(example.com)?",
+              "type": "input_text"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "arguments": "{\"host\":\"example.com\"}",
+          "call_id": "fc_11",
+          "name": "ping",
+          "type": "function_call"
+        },
+        {
+          "call_id": "fc_11",
+          "output": "ok",
+          "type": "function_call_output"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_00",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "describe this",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/png",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "a cat",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "describe this"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/png"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "a cat"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_01",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "what is in the photo",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/jpeg",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "a dog",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "what is in the photo"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/jpeg"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "a dog"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_02",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "identify this",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/webp",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "a chair",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "identify this"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/webp"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "a chair"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_03",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "read the sign",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/png",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "stop",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "read the sign"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/png"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "stop"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_04",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "count animals",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/jpeg",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "three",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "count animals"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/jpeg"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "three"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_05",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "describe scenery",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/webp",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "mountains",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "describe scenery"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/webp"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "mountains"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_06",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "describe building",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/png",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "a tower",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "describe building"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/png"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "a tower"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_07",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "read label",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/jpeg",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "fragile",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "read label"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/jpeg"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "fragile"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_08",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "what color",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/webp",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "blue",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "what color"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/webp"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "blue"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_09",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "describe outfit",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/png",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "red shirt",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "describe outfit"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/png"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "red shirt"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_10",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "identify plant",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/jpeg",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "a fern",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "identify plant"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/jpeg"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "a fern"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "multimodal_11",
+    "kind": "multimodal",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": [
+            {
+              "text": "describe weather",
+              "type": "text"
+            },
+            {
+              "source": {
+                "data": "AAAA",
+                "media_type": "image/webp",
+                "type": "base64"
+              },
+              "type": "image"
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "text": "snowing",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "gemini",
+    "native_b": {
+      "contents": [
+        {
+          "parts": [
+            {
+              "text": "describe weather"
+            },
+            {
+              "inlineData": {
+                "data": "AAAA",
+                "mimeType": "image/webp"
+              }
+            }
+          ],
+          "role": "user"
+        },
+        {
+          "parts": [
+            {
+              "text": "snowing"
+            }
+          ],
+          "role": "model"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_00",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "step by step",
+              "type": "thinking"
+            },
+            {
+              "text": "answer is 7",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "answer is 7",
+          "reasoning_content": "step by step",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_01",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "let me think",
+              "type": "thinking"
+            },
+            {
+              "text": "the result is 12",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "the result is 12",
+          "reasoning_content": "let me think",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_02",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "considering options",
+              "type": "thinking"
+            },
+            {
+              "text": "option B",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "option B",
+          "reasoning_content": "considering options",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_03",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "first analyze",
+              "type": "thinking"
+            },
+            {
+              "text": "conclusion: yes",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "conclusion: yes",
+          "reasoning_content": "first analyze",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_04",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "breaking it down",
+              "type": "thinking"
+            },
+            {
+              "text": "three parts",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "three parts",
+          "reasoning_content": "breaking it down",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_05",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "checking edge cases",
+              "type": "thinking"
+            },
+            {
+              "text": "none found",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "none found",
+          "reasoning_content": "checking edge cases",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_06",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "recall the rule",
+              "type": "thinking"
+            },
+            {
+              "text": "use the formula",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "use the formula",
+          "reasoning_content": "recall the rule",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_07",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "eliminating impossible",
+              "type": "thinking"
+            },
+            {
+              "text": "must be C",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "must be C",
+          "reasoning_content": "eliminating impossible",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_08",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "counting carefully",
+              "type": "thinking"
+            },
+            {
+              "text": "exactly 9",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "exactly 9",
+          "reasoning_content": "counting carefully",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_09",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "rephrasing question",
+              "type": "thinking"
+            },
+            {
+              "text": "what they want is X",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "what they want is X",
+          "reasoning_content": "rephrasing question",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_10",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "looking up context",
+              "type": "thinking"
+            },
+            {
+              "text": "based on history",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "based on history",
+          "reasoning_content": "looking up context",
+          "role": "assistant"
+        }
+      ]
+    }
+  },
+  {
+    "label": "thinking_11",
+    "kind": "thinking",
+    "provider_a": "anthropic",
+    "native_a": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": [
+            {
+              "thinking": "reflecting on it",
+              "type": "thinking"
+            },
+            {
+              "text": "the simpler path",
+              "type": "text"
+            }
+          ],
+          "role": "assistant"
+        }
+      ]
+    },
+    "provider_b": "deepseek",
+    "native_b": {
+      "messages": [
+        {
+          "content": "solve this",
+          "role": "user"
+        },
+        {
+          "content": "the simpler path",
+          "reasoning_content": "reflecting on it",
+          "role": "assistant"
+        }
+      ]
+    }
+  }
+]
