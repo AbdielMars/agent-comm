@@ -1,12 +1,16 @@
 [package]
 name = "agent-comm"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Neutral conversation IR (a colimit over a small kernel) with a normal form and lossy-accounted provider codecs; fail-closed encode/decode."
-repository = "https://github.com/REPLACE-ME/agent-comm"
+repository = "https://github.com/AbdielMars/agent-comm"
+homepage = "https://github.com/AbdielMars/agent-comm"
+documentation = "https://docs.rs/agent-comm"
+readme = "README.md"
 keywords = ["agent", "llm", "codec", "colimit"]
-categories = ["api-bindings"]
+categories = ["api-bindings", "encoding"]
+rust-version = "1.75"
 # zenodo DOI: TBA
 
 [features]
@@ -16,7 +20,6 @@ categories = ["api-bindings"]
 conformance = []
 
 [dependencies]
-agent-protocol = { version = "0.1", path = "../agent-protocol" }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 # request_fingerprint canonical hash (SPEC v1.7 §4 / G8).
@@ -28,3 +31,8 @@ async-trait = "0.1"
 anyhow = "1"
 reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "normalize"
+harness = false

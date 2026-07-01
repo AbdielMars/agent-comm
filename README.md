@@ -7,7 +7,7 @@ never pairwise between providers.
 ## What's in v0
 
 - **Kernel K**: `Text` / `ToolCall` / `ToolResult` (wire frozen).
-- **Extension generators** (wire EXPERIMENTAL, not frozen): `Thinking` / `Media` / `Video`.
+- **Extension generators** (wire-frozen, SPEC v1.7 §2bis): `Thinking` / `Media` / `Video`.
 - **Codecs**: `AnthropicCodec` / `OpenAiCodec` / `GeminiCodec` / `ResponsesCodec`.
 - **Normal form** `Conversation::normalize` — the unique nf(·) computed as the pipeline
   **R5 → R1 → R6 → R3 → R2**:
@@ -33,7 +33,7 @@ never pairwise between providers.
 - **Round-trip conformance** `check_round_trip(codec, native)` — verifies
   `up → normalize → down → up → normalize` yields the same normal form.
 - **Identity** `encode` / `decode` are **fail-closed**: each requires an authorized
-  `Principal` via `agent_protocol::IdentityGate`; unauthorized → `CommError::Unauthorized`.
+  `Principal` via `crate::protocol::IdentityGate`; unauthorized → `CommError::Unauthorized`.
 
 ## Extending
 
@@ -42,15 +42,12 @@ variants and their wire format do not change. Adding a provider = adding a `Prov
 impl + a `codec_for` arm; other codecs are not touched (no privileged anchor — providers
 are peers).
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODEC_BUILDER_GUIDE.md](docs/CODEC_BUILDER_GUIDE.md) for the full guide.
+
 ## Dependencies
 
-`agent-protocol` (the standard contract), `serde`, `serde_json`. No async runtime,
-no networking, no codec adapters between providers.
+`serde`, `serde_json`, `blake3`. Zero external protocol dependencies. No async runtime, no networking.
 
 ## License
 
 `MIT OR Apache-2.0`.
-
-## Math
-
-TBA — companion papers in preparation.

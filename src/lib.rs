@@ -14,10 +14,11 @@
 //! via an [`IdentityGate`]; unauthorized → `Err(CommError::Unauthorized)`, no bypass.
 //!
 //! Extension generators ([`Content::Thinking`] / [`Content::Media`] / [`Content::Video`])
-//! are **wire-EXPERIMENTAL**: their serialization format is not frozen and may evolve
-//! before the next major. The kernel K wire (Text/ToolCall/ToolResult) is frozen.
+//! are **wire-frozen** (SPEC v1.7 §2bis). All six kernels (Text/ToolCall/ToolResult +
+//! Thinking/Media/Video) share a stable serialization; provider codecs that cannot represent
+//! an extension record a typed [`LossObligation`] (R-3 never silent) rather than failing.
 
-use agent_protocol::{IdentityGate, Principal};
+use crate::protocol::{IdentityGate, Principal};
 use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;
@@ -26,6 +27,7 @@ pub mod check;
 pub mod codecs;
 pub mod conformance;
 pub mod metrics;
+pub mod protocol;
 
 // ============================================================================
 // Role
@@ -105,8 +107,8 @@ pub enum Content {
     /// depends on it → representation-NOT-blind), so it is carried in the IR; a codec that
     /// collapses placement must record a typed `behav.placement_collapsed` loss.
     ///
-    /// **Wire EXPERIMENTAL**: this variant's serialization is not frozen. The kernel K
-    /// (Text/ToolCall/ToolResult) wire format remains frozen.
+    /// **Wire-frozen** (SPEC v1.7 §2bis). A provider codec that cannot carry reasoning
+    /// records a `behav.placement_collapsed` / `thinking` / `thinking+signature` loss.
     Thinking {
         text: String,
         #[serde(rename = "sig", skip_serializing_if = "Option::is_none", default)]
@@ -119,8 +121,7 @@ pub enum Content {
     /// Multimodal media (extension generator): inline base64 data + MIME (image/* or
     /// application/pdf). N1: permitted inside `tool_result.payload`.
     ///
-    /// **Wire EXPERIMENTAL**: not frozen. Long-term direction is a content-addressed blob
-    /// reference (triggered when media enters a persistence layer); for now data is inline.
+    /// **Wire-frozen** (SPEC v1.7 §2bis).
     Media {
         mime: String,
         data: String,
@@ -128,7 +129,8 @@ pub enum Content {
     /// Video media (extension generator). `source` supports URL (videos are often too large
     /// to inline) or base64. N1: not permitted inside `tool_result.payload`.
     ///
-    /// **Wire EXPERIMENTAL**: not frozen.
+    /// **Wire-frozen** (SPEC v1.7 §2bis). N1 restricts this variant: not permitted inside
+    /// `tool_result.payload`.
     Video {
         source: VideoSource,
         mime: String,

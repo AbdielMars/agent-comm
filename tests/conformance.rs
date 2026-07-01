@@ -35,7 +35,7 @@ fn turn_asst_call(id: &str) -> Turn {
         content: vec![Content::ToolCall { id: id.into(), name: "f".into(), args: json!({}) }],
     }
 }
-use agent_protocol::{IdentityGate, Principal};
+use agent_comm::protocol::{IdentityGate, Principal};
 use serde_json::json;
 
 struct AllowAll;

@@ -1,0 +1,71 @@
+# CI workflow for agent-comm
+#
+# Runs on push to main and on pull requests targeting main.
+# Matrix: ubuntu / macos / windows, stable Rust + MSRV.
+
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build-and-test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        rust: [stable, "1.75.0"]   # MSRV = 1.75 (edition 2021 + latest serde)
+        include:
+          # Conformance suite only on ubuntu/stable (fastest path)
+          - os: ubuntu-latest
+            rust: stable
+            conformance: true
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust ${{ matrix.rust }}
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: ${{ matrix.rust }}
+
+      - name: Cache cargo artifacts
+        uses: Swatinem/rust-cache@v2
+
+      - name: Build
+        run: cargo build --workspace --verbose
+
+      - name: Run tests
+        run: cargo test --workspace --verbose
+
+      - name: Run conformance suite
+        if: ${{ matrix.conformance }}
+        run: cargo test --features conformance --verbose
+
+  # Publishing: dry-run on every push; actual publish only on tagged releases.
+  publish-check:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo publish --dry-run -p agent-protocol
+      - run: cargo publish --dry-run -p agent-comm
+
+  # Lint: clippy on ubuntu/stable only (fastest)
+  clippy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - run: cargo clippy --workspace -- -D warnings
